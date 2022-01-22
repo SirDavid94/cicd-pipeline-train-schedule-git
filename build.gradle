@@ -7,7 +7,6 @@ node {
 }
 
 task build
-
 build.dependsOn npm_build
 npm_build.dependsOn npmInstall
 npm_test.dependsOn npmInstall
